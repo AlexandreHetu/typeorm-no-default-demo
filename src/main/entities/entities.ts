@@ -12,5 +12,5 @@ export class Product {
 @Entity()
 export class Entitlement {
     @PrimaryColumn() identifier!: string;
-
+    @PrimaryColumn({default: 'GOGGLES'}) company!: string;
 }
