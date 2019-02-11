@@ -1,0 +1,15 @@
+{
+   "type": "postgres",
+   "synchronize": false,
+   "logging": true,
+   "entities": [
+      "build/src/main/entities/*.js"
+   ],
+   "migrations": [
+      "build/src/main/migrations/*.js"
+   ],
+   "cli": {
+      "entitiesDir": "src/main/entities",
+      "migrationsDir": "src/main/migrations"
+   }
+}
